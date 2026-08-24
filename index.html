@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Zing Fit Store | Premium Sportswear</title>
+
+    <meta name="description" content="Zing Fit Store - Premium custom sportswear, jerseys, hoodies, baseball uniforms, tracksuits and more.">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="nav-container">
+
+            <a href="#home" class="logo">
+                <span>ZING</span> FIT
+            </a>
+
+            <nav class="nav-menu">
+                <a href="#home">Home</a>
+                <a href="#products">Products</a>
+                <a href="#about">About</a>
+                <a href="#why-us">Why Us</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <a href="#products" class="nav-button">
+                Shop Now
+            </a>
+
+            <button class="menu-toggle" id="menuToggle">
+                ☰
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+
+                <p class="hero-small">
+                    PREMIUM CUSTOM SPORTSWEAR
+                </p>
+
+                <h1>
+                    BUILT TO <span>PERFORM.</span>
+                    <br>
+                    MADE TO <span>STAND OUT.</span>
+                </h1>
+
+                <p class="hero-text">
+                    Premium custom sportswear designed for teams,
+                    athletes and brands that demand quality.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#products" class="btn btn-primary">
+                        Explore Collection
+                    </a>
+
+                    <a href="#contact" class="btn btn-secondary">
+                        Get In Touch
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FEATURES ================= -->
+
+        <section class="features">
+
+            <div class="feature">
+                <div class="feature-icon">✦</div>
+                <h3>Premium Quality</h3>
+                <p>High-quality fabrics and professional finishing.</p>
+            </div>
+
+            <div class="feature">
+                <div class="feature-icon">⚡</div>
+                <h3>Custom Designs</h3>
+                <p>Create unique sportswear for your team or brand.</p>
+            </div>
+
+            <div class="feature">
+                <div class="feature-icon">✓</div>
+                <h3>Made For Performance</h3>
+                <p>Designed for comfort, movement and durability.</p>
+            </div>
+
+            <div class="feature">
+                <div class="feature-icon">🌎</div>
+                <h3>Worldwide Orders</h3>
+                <p>Professional sportswear for teams around the world.</p>
+            </div>
+
+        </section>
+
+
+        <!-- ================= PRODUCTS ================= -->
+
+        <section class="products-section" id="products">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    OUR COLLECTION
+                </p>
+
+                <h2>
+                    PREMIUM <span>SPORTSWEAR</span>
+                </h2>
+
+                <p>
+                    Explore our collection of premium sportswear
+                    made for performance and style.
+                </p>
+
+            </div>
+
+
+            <div class="category-buttons">
+
+                <button class="category-btn active" data-filter="all">
+                    All
+                </button>
+
+                <button class="category-btn" data-filter="jersey">
+                    Jerseys
+                </button>
+
+                <button class="category-btn" data-filter="hoodie">
+                    Hoodies
+                </button>
+
+                <button class="category-btn" data-filter="baseball">
+                    Baseball
+                </button>
+
+                <button class="category-btn" data-filter="tracksuit">
+                    Tracksuits
+                </button>
+
+                <button class="category-btn" data-filter="shorts">
+                    Shorts
+                </button>
+
+            </div>
+
+
+            <div class="product-grid">
+
+
+                <!-- PRODUCT 1 -->
+
+                <article class="product-card" data-category="jersey">
+
+                    <div class="product-image">
+
+                        <img src="image/jersey1.jpg"
+                             alt="Premium Sports Jersey">
+
+                        <span class="product-tag">
+                            FEATURED
+                        </span>
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">
+                            SPORTS JERSEY
+                        </p>
+
+                        <h3>
+                            Premium Custom Jersey
+                        </h3>
+
+                        <p class="product-description">
+                            Professional custom sports jersey
+                            with premium performance fabric.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>
+                                $12
+                            </strong>
+
+                            <button class="view-product"
+                                    onclick="openProduct(
+                                    'Premium Custom Jersey',
+                                    'image/jersey1.jpg',
+                                    '$12',
+                                    'Professional custom sports jersey with premium performance fabric.'
+                                    )">
+                                View Product
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 2 -->
+
+                <article class="product-card" data-category="hoodie">
+
+                    <div class="product-image">
+
+                        <img src="image/hoodie1.jpg"
+                             alt="Premium Sports Hoodie">
+
+                        <span class="product-tag">
+                            NEW
+                        </span>
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">
+                            HOODIE
+                        </p>
+
+                        <h3>
+                            Custom Sublimation Hoodie
+                        </h3>
+
+                        <p class="product-description">
+                            Premium custom hoodie designed
+                            for teams and sportswear brands.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>
+                                $23
+                            </strong>
+
+                            <button class="view-product"
+                                    onclick="openProduct(
+                                    'Custom Sublimation Hoodie',
+                                    'image/hoodie1.jpg',
+                                    '$23',
+                                    'Premium custom sublimation hoodie designed for teams and sportswear brands.'
+                                    )">
+                                View Product
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 3 -->
+
+                <article class="product-card" data-category="baseball">
+
+                    <div class="product-image">
+
+                        <img src="image/baseball1.jpg"
+                             alt="Baseball Uniform">
+
+                        <span class="product-tag">
+                            POPULAR
+                        </span>
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">
+                            BASEBALL
+                        </p>
+
+                        <h3>
+                            Custom Baseball Uniform
+                        </h3>
+
+                        <p class="product-description">
+                            Professional baseball uniform
+                            built for comfort and performance.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>
+                                $21
+                            </strong>
+
+                            <button class="view-product"
+                                    onclick="openProduct(
+                                    'Custom Baseball Uniform',
+                                    'image/baseball1.jpg',
+                                    '$21',
+                                    'Professional baseball uniform built for comfort and performance.'
+                                    )">
+                                View Product
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 4 -->
+
+                <article class="product-card" data-category="tracksuit">
+
+                    <div class="product-image">
+
+                        <img src="image/tracksuit.jpg"
+                             alt="Custom Tracksuit">
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">
+                            TRACKSUIT
+                        </p>
+
+                        <h3>
+                            Premium Custom Tracksuit
+                        </h3>
+
+                        <p class="product-description">
+                            Modern team tracksuit designed
+                            for training and everyday performance.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>
+                                Contact Us
+                            </strong>
+
+                            <button class="view-product"
+                                    onclick="openProduct(
+                                    'Premium Custom Tracksuit',
+                                    'image/tracksuit.jpg',
+                                    'Contact Us',
+                                    'Modern team tracksuit designed for training and everyday performance.'
+                                    )">
+                                View Product
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 5 -->
+
+                <article class="product-card" data-category="shorts">
+
+                    <div class="product-image">
+
+                        <img src="image/shorts.jpg"
+                             alt="Custom Sports Shorts">
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">
+                            SPORTS SHORTS
+                        </p>
+
+                        <h3>
+                            Custom Performance Shorts
+                        </h3>
+
+                        <p class="product-description">
+                            Lightweight performance shorts
+                            designed for active athletes.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>
+                                Contact Us
+                            </strong>
+
+                            <button class="view-product"
+                                    onclick="openProduct(
+                                    'Custom Performance Shorts',
+                                    'image/shorts.jpg',
+                                    'Contact Us',
+                                    'Lightweight performance shorts designed for active athletes.'
+                                    )">
+                                View Product
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= BANNER ================= -->
+
+        <section class="cta-section">
+
+            <div class="cta-content">
+
+                <p>
+                    YOUR TEAM. YOUR DESIGN. YOUR IDENTITY.
+                </p>
+
+                <h2>
+                    READY TO CREATE
+                    <span>YOUR KIT?</span>
+                </h2>
+
+                <a href="#contact" class="btn btn-primary">
+                    Start Your Order
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section class="about-section" id="about">
+
+            <div class="about-image">
+
+                <div class="about-box">
+                    <strong>
+                        ZING FIT
+                    </strong>
+
+                    <span>
+                        PERFORMANCE SPORTSWEAR
+                    </span>
+                </div>
+
+            </div>
+
+
+            <div class="about-content">
+
+                <p class="section-label">
+                    ABOUT ZING FIT STORE
+                </p>
+
+                <h2>
+                    SPORTSWEAR
+                    <span>BUILT DIFFERENT.</span>
+                </h2>
+
+                <p>
+                    Zing Fit Store is focused on creating premium
+                    sportswear for teams, athletes and brands.
+                    Our goal is to combine modern design,
+                    quality materials and performance-focused
+                    construction.
+                </p>
+
+                <p>
+                    From custom jerseys and hoodies to baseball
+                    uniforms, tracksuits and performance apparel,
+                    we help bring your team's identity to life.
+                </p>
+
+                <a href="#contact" class="btn btn-primary">
+                    Contact Us
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= WHY US ================= -->
+
+        <section class="why-section" id="why-us">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    WHY ZING FIT
+                </p>
+
+                <h2>
+                    QUALITY THAT
+                    <span>PERFORMS.</span>
+                </h2>
+
+            </div>
+
+
+            <div class="why-grid">
+
+                <div class="why-card">
+                    <span>01</span>
+                    <h3>Premium Materials</h3>
+                    <p>
+                        Performance fabrics selected for
+                        comfort, durability and movement.
+                    </p>
+                </div>
+
+                <div class="why-card">
+                    <span>02</span>
+                    <h3>Custom Production</h3>
+                    <p>
+                        Your colors, your design and your
+                        team's unique identity.
+                    </p>
+                </div>
+
+                <div class="why-card">
+                    <span>03</span>
+                    <h3>Professional Finish</h3>
+                    <p>
+                        Attention to detail from design
+                        through final production.
+                    </p>
+                </div>
+
+                <div class="why-card">
+                    <span>04</span>
+                    <h3>Built For Teams</h3>
+                    <p>
+                        Sportswear created for athletes,
+                        clubs and professional teams.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section class="contact-section" id="contact">
+
+            <div class="contact-container">
+
+                <div class="contact-info">
+
+                    <p class="section-label">
+                        GET IN TOUCH
+                    </p>
+
+                    <h2>
+                        LET'S BUILD
+                        <span>YOUR TEAM KIT.</span>
+                    </h2>
+
+                    <p>
+                        Have a custom sportswear project?
+                        Contact Zing Fit Store and tell us
+                        what you need.
+                    </p>
+
+                    <div class="contact-details">
+
+                        <div>
+                            <strong>WhatsApp</strong>
+
+                            <a href="https://wa.me/923472164308"
+                               target="_blank">
+                                +92 347 2164308
+                            </a>
+
+                        </div>
+
+                        <div>
+                            <strong>Email</strong>
+                            <span>zingfitstore.com</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <form class="contact-form"
+                      onsubmit="sendMessage(event)">
+
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Your Name"
+                        required
+                    >
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Your Email"
+                        required
+                    >
+
+                    <input
+                        type="text"
+                        id="subject"
+                        placeholder="Subject"
+                        required
+                    >
+
+                    <textarea
+                        id="message"
+                        placeholder="Tell us about your project..."
+                        required
+                    ></textarea>
+
+                    <button type="submit"
+                            class="btn btn-primary">
+                        Send Message
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= PRODUCT MODAL ================= -->
+
+    <div class="product-modal" id="productModal">
+
+        <div class="modal-overlay"
+             onclick="closeProduct()"></div>
+
+        <div class="modal-content">
+
+            <button class="modal-close"
+                    onclick="closeProduct()">
+                ×
+            </button>
+
+            <div class="modal-image">
+
+                <img id="modalImage"
+                     src=""
+                     alt="Product">
+
+            </div>
+
+            <div class="modal-info">
+
+                <p class="section-label">
+                    ZING FIT STORE
+                </p>
+
+                <h2 id="modalTitle">
+                    Product
+                </h2>
+
+                <strong id="modalPrice">
+                    $0
+                </strong>
+
+                <p id="modalDescription">
+                    Product description.
+                </p>
+
+                <a href="#contact"
+                   class="btn btn-primary modal-order"
+                   onclick="closeProduct()">
+                    Order Now
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <div class="footer-brand">
+
+                <a href="#home" class="logo">
+                    <span>ZING</span> FIT
+                </a>
+
+                <p>
+                    Premium custom sportswear
+                    built for performance.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h4>Quick Links</h4>
+
+                <a href="#home">Home</a>
+                <a href="#products">Products</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h4>Products</h4>
+
+                <a href="#products">Jerseys</a>
+                <a href="#products">Hoodies</a>
+                <a href="#products">Baseball</a>
+                <a href="#products">Tracksuits</a>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h4>Contact</h4>
+
+                <a href="https://wa.me/923472164308"
+                   target="_blank">
+                    WhatsApp
+                </a>
+
+                <a href="#contact">
+                    Email
+                </a>
+
+                <a href="#contact">
+                    Get Quote
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 Zing Fit Store. All Rights Reserved.
+            </p>
+
+            <p>
+                Premium Sportswear
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ================= WHATSAPP BUTTON ================= -->
+
+    <a href="https://wa.me/923472164308"
+       class="whatsapp-btn"
+       target="_blank"
+       aria-label="Chat with Zing Fit Store on WhatsApp">
+
+        <span class="whatsapp-icon">☏</span>
+
+        <span>
+            WhatsApp Us
+        </span>
+
+    </a>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
